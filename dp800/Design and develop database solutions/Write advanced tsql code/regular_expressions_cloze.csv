@@ -3,7 +3,7 @@
 #notetype:Cloze
 #tags:regular_expressions
 #columns:Text,Back Extra
-"Built-in REGEXP_* functions were introduced in SQL Server {{c1::2025}}.","Earlier SQL Server versions do not provide these built-in regex functions.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/regular-expressions/overview?view=sql-server-ver17#platform-support"">Review source</a>"
+"Built-in REGEXP_* functions were introduced in SQL Server {{c1::2025}}.","Also available in Azure SQL Database and Fabric SQL database.<br>Azure SQL Managed Instance requires the SQL Server 2025 or Always-up-to-date update policy.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/regular-expressions/overview?view=sql-server-ver17#platform-support"">Review source</a>"
 "The regex quantifier {{c1::*}} means zero or more repetitions of the preceding expression.","For example, ab*c also matches ac.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/regular-expressions/overview?view=sql-server-ver17#accepted-regular-expression-characters"">Review source</a>"
 "The regex quantifier {{c1::+}} means one or more repetitions of the preceding expression.","For example, ab+c requires at least one b.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/regular-expressions/overview?view=sql-server-ver17#accepted-regular-expression-characters"">Review source</a>"
 "The regex quantifier {{c1::?}} makes the preceding expression optional.","It allows zero or one occurrence.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/regular-expressions/overview?view=sql-server-ver17#accepted-regular-expression-characters"">Review source</a>"

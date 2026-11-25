@@ -3,7 +3,7 @@
 #notetype:Cloze
 #tags:graph_queries
 #columns:Text,Back Extra
-"Node tables, edge tables, and MATCH were introduced in SQL Server {{c1::2017}}.","These features are also available in Azure SQL Database.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/graphs/sql-graph-overview?view=sql-server-ver17#graph-features-introduced-in-sql-server-2017"">Review source</a>"
+"Node tables, edge tables, and MATCH were introduced in SQL Server {{c1::2017}}.","Also available in Azure SQL Database, Azure SQL Managed Instance, and Fabric SQL database.<br>Fabric node and edge tables do not mirror to OneLake.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/graphs/sql-graph-overview?view=sql-server-ver17"">Review source</a>"
 "SHORTEST_PATH requires SQL Server {{c1::2019}} or later.","Do not assume that SQL Server 2017 graph support includes this function.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/queries/match-sql-graph?view=sql-server-ver17#shortest_path"">Review source</a>"
 "Create a graph entity table with CREATE TABLE dbo.Person (PersonID INT PRIMARY KEY) {{c1::AS NODE}};","The clause identifies the table as a node table.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/graphs/sql-graph-overview?view=sql-server-ver17#create-graph-objects"">Review source</a>"
 "Create a relationship table with CREATE TABLE dbo.Knows (ConnectionDate DATE) {{c1::AS EDGE}};","The date is a user-defined property of each relationship.<br><a href=""https://learn.microsoft.com/en-us/sql/relational-databases/graphs/sql-graph-overview?view=sql-server-ver17#create-graph-objects"">Review source</a>"

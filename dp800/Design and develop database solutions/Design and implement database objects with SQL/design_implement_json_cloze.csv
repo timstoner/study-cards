@@ -3,7 +3,7 @@
 #notetype:Cloze
 #tags:design_implement_json
 #columns:Text,Back Extra
-"In SQL Server 2025, declare a native document column with ConfigSettings {{c1::JSON}} NOT NULL.","The built-in type stores and validates JSON documents.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/data-types/json-data-type?view=sql-server-ver17"">Review source</a>"
+"In SQL Server 2025, declare a native document column with ConfigSettings {{c1::JSON}} NOT NULL.","The type is generally available. Azure SQL Managed Instance requires the SQL Server 2025 or Always-up-to-date update policy.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/data-types/json-data-type?view=sql-server-ver17"">Review source</a>"
 "The native SQL Server json type stores documents in a {{c1::binary}} format.","The stored document is already parsed for more efficient property access.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/data-types/json-data-type?view=sql-server-ver17"">Review source</a>"
 "In SQL Server 2016 through 2022, a common column type for storing JSON text is {{c1::NVARCHAR(MAX)}}.","These versions have JSON functions but not the native json data type.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/7-design-implement-json?pivots=text"">Review source</a>"
 "At the document root, the native SQL Server json type accepts {{c1::an object or an array}}.","A bare JSON number, string, boolean, or JSON null is not a valid native json document.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/data-types/json-data-type?view=sql-server-ver17"">Review source</a>"
