@@ -1,0 +1,13 @@
+#separator:Comma
+#html:false
+#columns:Front,Answer,Explanation
+"What does it mean for a Lean-Agile leader to lead by example?","Demonstrate the values and behaviors expected from others.","For example, a leader makes problems visible rather than hiding them."
+"How can a leader create psychological safety during a retrospective?","Invite people to raise problems without fear of blame.","People are more likely to share useful information when they can speak openly."
+"A team reports a recurring approval bottleneck outside its control. What can a leader do?","Work with the people who control the process to remove the bottleneck.","Leaders can change organizational systems that individual teams cannot change alone."
+"Why must leaders participate in a Lean-Agile transformation?","They can change policies, structures, and incentives that affect how work flows.","Delegating all change to teams leaves systemic barriers in place."
+"What is a practical way for leaders to support continuous improvement?","Give teams time to identify and act on improvements.","Leaders can also remove barriers that prevent an improvement from taking effect."
+"How does a leader support decentralized decisions?","Set clear boundaries and give people the authority to decide within them.","Teams can then act quickly while remaining aligned with strategy and guardrails."
+"What should a leader do after a small experiment fails?","Review the evidence with the team and use it to guide the next decision.","A failed hypothesis can provide useful learning without requiring blame."
+"How can leaders use AI to prepare for a change discussion?","Use it to draft or summarize material, then review the result for accuracy and context.","The leader remains responsible for the message and the decision."
+"Why should a leader review AI-generated advice before acting on it?","The advice can be inaccurate, biased, or missing important context.","Human oversight supports accountable and informed decisions."
+"How can a leader tell whether a change is helping?","Compare relevant outcomes and feedback with the intended goal.","For example, measure whether customer wait time improves instead of counting ceremonies."

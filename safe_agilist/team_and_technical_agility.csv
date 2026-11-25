@@ -1,0 +1,13 @@
+#separator:Comma
+#html:false
+#columns:Front,Answer,Explanation
+"What is a cross-functional Agile Team?","A team with the skills needed to define, build, test, and deliver its work.","Cross-functional teams reduce reliance on handoffs to separate departments."
+"What is an Agile Release Train (ART)?","A long-lived group of Agile Teams and stakeholders aligned to deliver value together.","The ART coordinates teams around a shared mission and cadence."
+"Why do stable Agile Teams support better delivery?","People can build relationships and improve their way of working over time.","Stable teams avoid repeatedly losing shared knowledge when projects end."
+"What is Built-In Quality?","Practices that build quality into the work throughout development.","Teams do not rely only on a final inspection to find defects."
+"Why is test automation useful in a Continuous Delivery Pipeline?","It provides repeatable feedback when changes are integrated.","Automated tests help teams detect defects earlier and deliver changes more safely."
+"What does continuous integration do?","Frequently combines changes and checks the integrated solution.","Frequent integration exposes conflicts and defects earlier."
+"What is the difference between deployment and release?","Deployment places a solution in an environment. Release makes the functionality available to users.","A team can deploy functionality before deciding when to make it available."
+"What is the purpose of continuous exploration?","Learn about customer needs and identify valuable solution options.","Exploration connects discovery and feedback to the work that teams build."
+"What is the goal of the Continuous Delivery Pipeline?","Move changes from idea to release through coordinated workflows and automation.","The pipeline supports frequent delivery of value when the business needs it."
+"How does DevOps improve delivery across an ART?","It promotes shared responsibility and collaboration across development and operations.","Automation, feedback, and collaboration reduce delays between building and operating solutions."

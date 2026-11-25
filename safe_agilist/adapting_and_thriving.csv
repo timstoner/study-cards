@@ -1,0 +1,13 @@
+#separator:Comma
+#html:false
+#columns:Front,Answer,Explanation
+"What does business agility enable an organization to do?","Respond quickly to market changes and opportunities with innovative solutions.","Business agility involves the whole organization, not only software teams."
+"A competitor changes customer expectations. What response shows business agility?","Learn what customers now need and adapt the solution quickly.","A fast response requires coordination between business and technology."
+"Why can functional silos slow value delivery?","Work waits for handoffs and approvals between departments.","Organizing people around value reduces unnecessary dependencies and delays."
+"In SAFe, what is a value stream?","The sequence of activities used to deliver value to a customer.","A value stream crosses the functions needed to deliver an outcome."
+"What is the difference between an operational value stream and a development value stream?","An operational value stream delivers value to a customer. A development value stream builds and maintains solutions that support it.","For example, processing an insurance claim is operational. Building the claim system is development."
+"Why does SAFe use both a hierarchy and a network organized around value?","The hierarchy supports stability and expertise. The network supports fast collaboration and response.","The network connects people across functions without requiring the hierarchy to disappear."
+"What is the purpose of organizing around value rather than individual functions?","Reduce handoffs and deliver customer outcomes faster.","People with different skills collaborate around a shared flow of work."
+"How does a Lean-Agile organization respond to an untested product idea?","Test the idea with customers and use the feedback to decide what to do next.","Small experiments reduce the risk of investing heavily in an unwanted solution."
+"Why is a software team's agility alone insufficient for business agility?","Other parts of the organization must also support rapid decisions and value delivery.","Slow funding or approval processes can block even a fast development team."
+"What distinguishes a Lean-Agile transformation from adopting a few team ceremonies?","It changes leadership, funding, organization, and ways of working to improve value delivery.","Team practices help, but business agility also depends on the surrounding system."
