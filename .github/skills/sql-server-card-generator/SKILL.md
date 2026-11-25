@@ -60,6 +60,7 @@ Cover only the requested objectives. Do not claim full exam coverage without evi
   affect correctness.
 - Include an explanation only when it adds a reason, example, or necessary limit.
 - Use the smallest SQL example that tests the concept. Include sample rows when results depend on data.
+- For cards that teach SQL syntax, include a short example on the answer side.
 - For query-result questions, state relevant ties, duplicates, NULL values, and ordering assumptions.
 - Use SQL Server terminology and T-SQL syntax. Do not silently substitute
   PostgreSQL, MySQL, or ANSI behavior.
@@ -78,6 +79,42 @@ For example, split a migration scenario into these independent prompts:
 - "Who manages automated backups for Azure SQL Managed Instance?" Answer: "Azure."
 
 Make sure that each resulting card has its own source link.
+
+## SQL examples
+
+Prefer AdventureWorks or WideWorldImporters when a sample database illustrates
+the concept. Identify the database and use schema-qualified object names.
+Confirm the tables, columns, and feature support in the official sample schema
+for the relevant version. Do not assume that either database is installed.
+
+Use a self-contained example instead when the sample schema does not support
+the concept or when sample data cannot demonstrate the required result.
+State setup, data, version, or compatibility requirements when needed.
+Do not assume specific sample rows or query results without verifying them.
+Label examples that change data or create objects, and do not execute them
+against a database without permission.
+
+For HTML-enabled Anki notes, put examples in the displayed answer field or
+`Back Extra`, not in the question. Use a left-aligned monospaced `<pre>` block.
+Escape SQL as HTML and encode line breaks as `&#10;` before CSV quoting.
+Keep existing note structure, questions, sources, and card counts unchanged
+unless the user requests changes.
+
+For example, use the AdventureWorks `Production.Product` table for `TOP`:
+
+```sql
+SELECT TOP (5) ProductID, Name
+FROM Production.Product
+ORDER BY ProductID;
+```
+
+Use WideWorldImporters `Warehouse.StockItems.CustomFields` for JSON:
+
+```sql
+SELECT StockItemID, JSON_QUERY(CustomFields, '$.Tags') AS Tags
+FROM Warehouse.StockItems
+WHERE CustomFields IS NOT NULL;
+```
 
 ## Source-link requirement
 
@@ -228,4 +265,6 @@ If the user requests CSV only, return only the headers and records.
 
 - [Microsoft Transact-SQL reference](https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver17)
 - [SQL Server technical documentation](https://learn.microsoft.com/en-us/sql/sql-server/)
+- [AdventureWorks installation script](https://github.com/microsoft/sql-server-samples/blob/master/samples/databases/adventure-works/oltp-install-script/instawdb.sql)
+- [WideWorldImporters StockItems schema](https://github.com/microsoft/sql-server-samples/blob/master/samples/databases/wide-world-importers/wwi-ssdt/wwi-ssdt/Warehouse/Tables/StockItems.sql)
 - [Anki text file import](https://docs.ankiweb.net/importing/text-files.html)
