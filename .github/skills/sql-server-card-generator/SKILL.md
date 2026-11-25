@@ -162,8 +162,6 @@ For new cloze files, use Anki's built-in Cloze note type:
 ```
 
 A cloze card hides part of a statement.
-Use one `{{c1::answer}}` deletion per note by default.
-Keep the hidden text to one concept or short phrase.
 Additional deletion numbers generate additional cards.
 Keep the explanation and an HTML source link in `Back Extra`:
 
