@@ -1,0 +1,4 @@
+{{FrontSide}}
+<hr id="answer">
+{{Answer}}<br>{{Explanation}}
+<br><a href="{{Source}}">Review source</a>
