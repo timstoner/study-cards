@@ -1,0 +1,14 @@
+#separator:Comma
+#html:true
+#notetype:Cloze
+#tags:configure_model_mcp_tool_options
+#columns:Text,Back Extra
+"In the unit's VS Code workflow, switch to {{c1::Agent}} mode to use MCP tools.","This mode lets Copilot invoke external tools.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/5-configure-model-mcp-tool-options?pivots=text"">Review source</a>"
+"The VS Code Command Palette command for adding an MCP server is {{c1::MCP: Add Server}}.","Provide the endpoint URL or the server's launch command.<br><a href=""https://code.visualstudio.com/docs/agent-customization/mcp-servers"">Review source</a>"
+"The unit stores workspace MCP configuration in {{c1::.vscode\mcp.json}}.","This is the VS Code-specific format, which remains available for compatibility.<br><a href=""https://code.visualstudio.com/docs/agent-customization/mcp-servers"">Review source</a>"
+"In VS Code-format mcp.json, server definitions go inside the top-level {{c1::servers}} object.","Portable MCP configuration uses a different top-level name.<br><a href=""https://code.visualstudio.com/docs/agent-customization/mcp-servers"">Review source</a>"
+"In the unit's VS Code configuration, a remote MCP endpoint uses type {{c1::http}}.","The configuration also supplies the server's endpoint URL.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/5-configure-model-mcp-tool-options?pivots=text"">Review source</a>"
+"In the unit's HTTP MCP server definition, the endpoint address belongs in the {{c1::url}} property.","Use the endpoint supplied by the MCP server publisher.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/5-configure-model-mcp-tool-options?pivots=text"">Review source</a>"
+"An MCP server launched by a local command can communicate through standard input and output using {{c1::stdio}}.","This differs from connecting to a remote HTTP endpoint.<br><a href=""https://code.visualstudio.com/docs/agent-customization/mcp-servers"">Review source</a>"
+"For broader Azure resource integration rather than only SQL access, the unit identifies {{c1::Azure MCP Server}}.","Choose a server whose tools match the required service.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/5-configure-model-mcp-tool-options?pivots=text"">Review source</a>"
+

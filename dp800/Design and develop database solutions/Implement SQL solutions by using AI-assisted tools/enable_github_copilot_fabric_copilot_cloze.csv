@@ -1,0 +1,12 @@
+#separator:Comma
+#html:true
+#notetype:Cloze
+#tags:enable_github_copilot_fabric_copilot
+#columns:Text,Back Extra
+"Native GitHub Copilot support in SSMS starts with version {{c1::22}}.","Install the AI Assistance workload through the Visual Studio Installer.<br><a href=""https://learn.microsoft.com/en-us/ssms/github-copilot/installation-state"">Review source</a>"
+"The Fabric tenant setting for Azure OpenAI-powered Copilot access is {{c1::Users can use Copilot and other features powered by Azure OpenAI}}.","The setting must permit the intended users to access the feature.<br><a href=""https://learn.microsoft.com/en-us/fabric/admin/service-admin-portal-copilot"">Review source</a>"
+"The SSMS Copilot chat sign-in screen offers {{c1::Copilot Free}} for users without existing Copilot access.","The unit's paid-subscription examples are not the only route to access.<br><a href=""https://learn.microsoft.com/en-us/ssms/github-copilot/installation-state"">Review source</a>"
+"If Copilot lacks database-specific context, first check for an active {{c1::database connection}}.","The connected account also needs permission to read the required schema information.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/4-enable-github-copilot-fabric-copilot?pivots=text"">Review source</a>"
+"For a SQL database in the Fabric portal, access Copilot from the {{c1::query editor}}.","Open the database and use the Copilot button or chat interface.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/4-enable-github-copilot-fabric-copilot?pivots=text"">Review source</a>"
+"Copilot in Fabric SQL database requires supported paid capacity rather than {{c1::trial capacity}}.","The documented minimum is F2 or P1, subject to the other prerequisites.<br><a href=""https://learn.microsoft.com/en-us/fabric/database/sql/copilot-sql-database"">Review source</a>"
+

@@ -1,0 +1,13 @@
+#separator:Comma
+#html:true
+#tags:enable_github_copilot_fabric_copilot
+#columns:Front,Answer,Explanation,Source
+"Which Visual Studio Installer workload installs GitHub Copilot in SSMS 22?","AI Assistance.","Modify the SSMS installation and select this workload.","https://learn.microsoft.com/en-us/ssms/github-copilot/installation-state"
+"Which account must you use to activate GitHub Copilot in SSMS?","A GitHub account with Copilot access.","If you have multiple accounts, make sure that the active account has access.","https://learn.microsoft.com/en-us/ssms/github-copilot/installation-state"
+"Which Microsoft extension provides SQL database connections for Copilot-assisted development in Visual Studio Code?","SQL Server (mssql).","Install it alongside GitHub Copilot support and connect to your database.","https://learn.microsoft.com/en-us/sql/tools/visual-studio-code-extensions/github-copilot/overview?view=sql-server-ver17"
+"Which Visual Studio Code chat participant provides connected-database schema context for SQL questions?","@mssql.","Ordinary inline completions do not automatically see the connected database schema.","https://learn.microsoft.com/en-us/sql/tools/visual-studio-code-extensions/github-copilot/overview?view=sql-server-ver17"
+"What paid capacity meets the unit's minimum requirement for Copilot in Fabric?","Fabric F2 or higher, or Power BI Premium P1 or higher.","Capacity alone does not replace the required permissions and enabled Copilot configuration.","https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/4-enable-github-copilot-fabric-copilot?pivots=text"
+"Which administrator role manages tenant-wide Copilot configuration in Fabric?","Fabric Administrator.","Copilot access is controlled through the tenant configuration.","https://learn.microsoft.com/en-us/fabric/admin/service-admin-portal-copilot"
+"Besides eligible capacity and enabled tenant configuration, what workspace prerequisite does Fabric Copilot require?","Appropriate permissions in the Fabric workspace.","Tenant enablement alone does not establish access to a workspace.","https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/4-enable-github-copilot-fabric-copilot?pivots=text"
+"How can you check that Copilot setup provides the intended database context?","Ask about its tables and compare the response with the actual schema.","A generic SQL response alone does not establish database awareness.","https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/4-enable-github-copilot-fabric-copilot?pivots=text"
+
