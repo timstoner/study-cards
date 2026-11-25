@@ -1,0 +1,13 @@
+#separator:Comma
+#html:true
+#notetype:Cloze
+#tags:design_embeddings_sql_database_workloads
+#columns:Text,Back Extra
+"Text chunks that are too small can lose {{c1::important context}}.","Very short fragments can omit information needed to interpret their meaning.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-models-embeddings-with-sql/04-design-embeddings-sql-database-workloads?pivots=text"">Review source</a>"
+"Split SQL text into chunks with {{c1::AI_GENERATE_CHUNKS}}.","This function splits text rather than generating embedding vectors.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/functions/ai-generate-chunks-transact-sql?view=sql-server-ver17"">Review source</a>"
+"Apply AI_GENERATE_CHUNKS to each row of dbo.documents using {{c1::CROSS APPLY}}.","The query can return several chunk rows for each document.<br><a href=""https://learn.microsoft.com/en-us/training/modules/design-implement-models-embeddings-with-sql/04-design-embeddings-sql-database-workloads?pivots=text"">Review source</a>"
+"In AI_GENERATE_CHUNKS, pass the text column through the {{c1::SOURCE}} argument.","For example, SOURCE = description passes the row's description text.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/functions/ai-generate-chunks-transact-sql?view=sql-server-ver17"">Review source</a>"
+"The currently supported CHUNK_TYPE for AI_GENERATE_CHUNKS is {{c1::FIXED}}.","The FIXED method uses a character-based size.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/functions/ai-generate-chunks-transact-sql?view=sql-server-ver17"">Review source</a>"
+"With CHUNK_TYPE = FIXED, AI_GENERATE_CHUNKS measures CHUNK_SIZE in {{c1::characters}}.","CHUNK_SIZE = 500 limits chunk text by character count, not the model's token count.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/functions/ai-generate-chunks-transact-sql?view=sql-server-ver17"">Review source</a>"
+"AI_GENERATE_CHUNKS requires database compatibility level {{c1::170}} or higher.","Below level 170, the Database Engine cannot find the function.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/functions/ai-generate-chunks-transact-sql?view=sql-server-ver17"">Review source</a>"
+"Repeat preceding text between chunks with the AI_GENERATE_CHUNKS {{c1::OVERLAP}} argument.","Use a whole-number percentage from 0 through 50, not a character count.<br><a href=""https://learn.microsoft.com/en-us/sql/t-sql/functions/ai-generate-chunks-transact-sql?view=sql-server-ver17"">Review source</a>"
