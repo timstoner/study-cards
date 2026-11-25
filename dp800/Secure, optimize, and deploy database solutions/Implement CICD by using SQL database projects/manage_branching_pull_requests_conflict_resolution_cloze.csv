@@ -1,0 +1,13 @@
+#separator:Comma
+#html:true
+#notetype:Cloze
+#tags:manage_branching_pull_requests_conflict_resolution
+#columns:Text,Back Extra
+"Starting on main, create and switch to a new feature branch with {{c1::git checkout -b feature/add-customer-email}}.","Make the database change on this branch rather than directly on main.<br><a href=""https://learn.microsoft.com/en-us/training/modules/implement-cicd-sql-database-projects/04-manage-branching-pull-requests-conflict-resolution?pivots=text"">Review source</a>"
+"Push committed changes on feature/add-customer-email to origin with {{c1::git push origin feature/add-customer-email}}.","Then open a pull request from that feature branch into main.<br><a href=""https://learn.microsoft.com/en-us/training/modules/implement-cicd-sql-database-projects/04-manage-branching-pull-requests-conflict-resolution?pivots=text"">Review source</a>"
+"A GitHub Actions workflow for proposed database changes normally uses the {{c1::pull_request}} event.","Configure the job to build the SQL database project.<br><a href=""https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow"">Review source</a>"
+"For pull_request events, branches: [main] filters the PR's {{c1::target branch}}.","It does not select feature branches by their source branch names.<br><a href=""https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow"">Review source</a>"
+"In Azure Repos, require a successful PR build through a {{c1::Build Validation}} branch policy.","Configure the build policy as Required on main to prevent ordinary PR completion when it fails.<br><a href=""https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops"">Review source</a>"
+"While on a feature branch, merge an up-to-date local main into it with {{c1::git merge main}}.","This integrates main into the current branch, not the current branch into main.<br><a href=""https://git-scm.com/docs/git-merge"">Review source</a>"
+"After editing a conflicted Tables\Customers.sql file, stage its resolution with {{c1::git add Tables\Customers.sql}}.","Staging records the resolved file but does not prove that the SQL schema is valid.<br><a href=""https://learn.microsoft.com/en-us/training/modules/implement-cicd-sql-database-projects/04-manage-branching-pull-requests-conflict-resolution?pivots=text"">Review source</a>"
+"After all merge conflicts are resolved and staged, finish the interrupted merge with {{c1::git merge --continue}}.","Run the SQL project build before completing the pull request.<br><a href=""https://git-scm.com/docs/git-merge"">Review source</a>"
